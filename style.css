@@ -1,0 +1,723 @@
+/* =========================
+   GLOBAL STYLING
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+body {
+    background-color: #fff8fc;
+    color: #4b304b;
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+
+.navbar {
+
+    background: linear-gradient(90deg, #6a1b9a, #9c27b0);
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 60px;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 10;
+
+}
+
+
+.navbar h2 {
+
+    font-size: 28px;
+
+}
+
+
+.nav-links {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+
+}
+
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+
+}
+
+
+.nav-links a:hover {
+
+    color: #ffd6ff;
+
+}
+
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+
+.hero img {
+
+    width: 100%;
+
+    height: 500px;
+
+    object-fit: cover;
+
+}
+
+
+
+
+
+/* =========================
+   HOME SERVICE CARDS
+========================= */
+
+
+.cards {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 60px 40px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    width: 300px;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(142,59,138,0.15);
+
+    transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+
+.card img {
+
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin: 15px 0;
+
+}
+
+
+
+.card h3 {
+
+    color: #8e3b8a;
+
+    font-size: 22px;
+
+}
+
+
+
+
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+
+.about,
+.about-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 70px 50px;
+
+}
+
+
+
+.about-image img {
+
+    width: 400px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+
+.about-text {
+
+    max-width: 500px;
+
+}
+
+
+
+.about-text h1,
+.about-text h2 {
+
+    color: #8e3b8a;
+
+    font-size: 38px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.about-text p {
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+
+/* =========================
+   IMAGE COLLECTION
+========================= */
+
+
+.gallery,
+.collection {
+
+    padding: 60px 40px;
+
+    text-align: center;
+
+}
+
+
+
+.gallery h2,
+.collection h2 {
+
+    color:#8e3b8a;
+
+    font-size: 35px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.gallery-images,
+.image-grid {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.gallery-images img,
+.image-grid img {
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    transition:0.3s;
+
+}
+
+
+
+.gallery-images img:hover,
+.image-grid img:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+
+.why-us {
+
+    background:#efd8fa;
+
+    padding:60px 40px;
+
+    text-align:center;
+
+}
+
+
+
+.why-us h2 {
+
+    color:#8e3b8a;
+
+    font-size:35px;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.features {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.feature {
+
+    background:white;
+
+    width:280px;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.feature h3 {
+
+    color:#8e3b8a;
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+/* BOOKING PAGE */
+.booking,
+.contact {
+    padding:70px 40px;text-align:center;
+
+}
+
+
+
+.booking h1,
+.contact h1 {
+
+    color:#8e3b8a;
+
+    font-size:35px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+form {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    max-width:450px;
+
+    margin:30px auto;
+
+}
+
+
+
+input,
+textarea,
+select {
+
+
+    padding:15px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    font-size:15px;
+
+}
+
+
+
+textarea {
+
+    height:120px;
+
+}
+
+
+
+button {
+
+    background:#8e3b8a;
+
+    color:white;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:0.3s;
+
+}
+
+
+
+button:hover {
+
+    background:#6a1b9a;
+
+}
+
+
+
+
+
+/* =========================
+   CONTACT
+========================= */
+
+
+.contact-box {
+
+    background:white;
+
+    padding:30px;
+
+    width:350px;
+
+    max-width:90%;
+
+    margin:30px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer {
+
+    background:#5e1769;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+}
+
+
+
+footer h3 {
+
+    font-size:25px;
+
+}
+
+
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+
+
+@media(max-width:900px){
+
+
+.navbar {
+
+    padding:20px 30px;
+
+}
+
+
+
+.cards {
+
+    padding:40px 20px;
+
+}
+
+
+
+.about,
+.about-section {
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+
+.features {
+
+    gap:20px;
+
+}
+
+
+
+.hero img {
+
+    height:350px;
+
+}
+
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+.navbar {
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+
+.nav-links {
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:15px;
+
+}
+
+
+
+.navbar h2 {
+
+    font-size:24px;
+
+}
+
+
+
+.hero img {
+
+    height:250px;
+
+}
+
+
+
+.cards {
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.card {
+
+    width:90%;
+
+}
+
+
+
+.about,
+.about-section {
+
+    padding:40px 20px;
+
+}
+
+
+
+.about-text h1,
+.about-text h2 {
+
+    font-size:28px;
+
+}
+
+
+
+.about-image img {
+
+    width:100%;
+
+}
+
+
+
+.gallery-images img,
+.image-grid img {
+
+    width:90%;
+
+}
+
+
+
+.feature {
+
+    width:90%;
+
+}
+
+
+
+.booking,
+.contact {
+
+    padding:40px 20px;
+
+}
+
+
+
+footer {
+
+    font-size:14px;
+
+}
+
+
+}
