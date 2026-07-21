@@ -142,23 +142,15 @@ button:hover {
 }
 
 .banner-content button {
-
     background:
-
     linear-gradient(
         135deg,
         #d7a7e8,
         #f2b6d8
     );
-
-
-
     padding:15px 35px;
-
     font-size:16px;
-
 }
-
 
 .banner-content button:hover {
     background:#ffffff;
@@ -179,79 +171,40 @@ button:hover {
      margin: auto;
 }
 
-
-
 /* SERVICES SECTION */
 #services {
     padding: 70px 8%;
 }
 
-
-
 .service-container {
-
     display: grid;
-
     grid-template-columns: repeat(4,1fr);
-
     gap: 25px;
-
 }
-
-
 
 .card {
-
     background: white;
-
     padding: 20px;
-
     border-radius: 20px;
-
-
-    box-shadow:
-
-    0 10px 25px rgba(123,79,163,0.12);
-
-
+    box-shadow:0 10px 25px rgba(123,79,163,0.12);
     transition: 0.3s;
-
 }
-
-
 
 .card:hover {
-
     transform: translateY(-8px);
-
 }
-
-
 
 .card img {
-
     height: 220px;
-
     width: 100%;
-
     object-fit: cover;
-
     border-radius: 15px;
-
 }
-
-
 
 .card h3 {
-
     color: #8b5bb7;
-
     margin: 18px 0 10px;
-
 }
-
-
-
 
 /* GALLERY */
 #gallery {
@@ -278,75 +231,38 @@ button:hover {
 }
 
 /* ABOUT PAGE */
-
-
 .page-banner {
-
     background:
-
-    linear-gradient(
-        135deg,
-        #ead7ff,
-        #fce6f5
-    );
-
-
+    linear-gradient( 135deg, #ead7ff, #fce6f5);
     padding: 80px 8%;
-
     text-align: center;
-
 }
-
-
 
 .page-banner h1 {
-
     font-size: 48px;
-
     color:#71449b;
-
 }
-
-
 
 .page-banner p {
-
     margin-top:15px;
-
 }
-
-
 
 .about-section {
-
     display:flex;
-
     align-items:center;
-
     gap:50px;
-
     padding:70px 8%;
-
 }
-
-
 
 .about-image {
     flex:1;
 }
 
-
-
 .about-image img {
-
     height:420px;
-
     width:100%;
-
     object-fit:cover;
-
     border-radius:25px;
-
 }
 
 .about-description {
@@ -357,90 +273,42 @@ button:hover {
     margin:20px 0;
 }
 
-
-
-
 .values {
-
     display:flex;
-
     justify-content:center;
-
     gap:30px;
-
     padding:50px 8%;
-
 }
-
-
 
 .value-box {
-
     background:white;
-
     width:350px;
-
     padding:30px;
-
     text-align:center;
-
     border-radius:20px;
-
-
-    box-shadow:
-
-    0 10px 25px rgba(0,0,0,0.1);
-
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
-
-
 
 .value-box h3 {
-
     color:#9a62c4;
-
     margin-bottom:15px;
-
 }
-
-
 
 /* CONTACT PAGE */
 .contact-section {
-
     display:flex;
-
     justify-content:center;
-
     gap:40px;
-
     padding:70px 8%;
-
 }
 
-
-
-.contact-details,
-.appointment-form {
-
-
+.contact-details,.appointment-form {
     background:white;
-
     width:45%;
-
     padding:35px;
-
     border-radius:20px;
-
-
-    box-shadow:
-
-    0 10px 25px rgba(123,79,163,0.15);
-
-
+    box-shadow:0 10px 25px rgba(123,79,163,0.15);
 }
-
-
 
 .contact-details p {
     margin:20px 0;
@@ -452,27 +320,15 @@ form {
     gap:15px;
 }
 
-
-
-input,
-textarea,
-select {
-
+input,textarea,select {
     padding:15px;
-
     border-radius:12px;
-
     border:1px solid #ddd;
-
     font-size:15px;
-
     outline:none;
-
 }
 
-input:focus,
-textarea:focus,
-select:focus {
+input:focus,textarea:focus,select:focus {
     border-color:#a77bd4;
 }
 
@@ -496,8 +352,6 @@ footer {
 }
 
 /* RESPONSIVE DESIGN */
-
-
 @media(max-width:900px){
     .navbar {
         flex-direction:column;
@@ -530,22 +384,12 @@ footer {
         grid-template-columns:repeat(2,1fr);
     }
 
-
-
-    .about-section,
-    .contact-section {
-
+    .about-section,.contact-section {
         flex-direction:column;
-
     }
-
-
-
-    .contact-details,
-    .appointment-form {
-
+    
+    .contact-details,.appointment-form {
         width:100%;
-
     }
 }
 
