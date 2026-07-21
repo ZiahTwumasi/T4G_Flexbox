@@ -4,266 +4,142 @@
     box-sizing: border-box;
 }
 
-
 body {
-
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    background-color: #d9baf0;
-    color: #3f3545;
+    background-color: #efd9ff;
+    color: #320050;
     line-height: 1.6;
-
 }
-
 
 html {
-
     scroll-behavior: smooth;
-
 }
-
 
 img {
-
-    max-width: 100%;
+    max-width: 120%;
     display: block;
-
 }
 
-
-h1,
-h2,
-h3 {
-
+h1,h2,h3 {
     font-family: "Georgia", serif;
-
 }
 
 
 h2 {
-
     text-align: center;
     color: #7b4fa3;
     font-size: 35px;
     margin-bottom: 35px;
-
 }
 
-
-
-/* ===========================
-   NAVIGATION BAR
-=========================== */
-
-
+/* NAVIGATION BAR*/
 .navbar {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 20px 8%;
-
     background: rgba(255,255,255,0.95);
-
-    box-shadow: 
-    0 5px 20px rgba(123,79,163,0.12);
-
-    position: sticky;
+    box-shadow: 0 5px 20px rgba(123,79,163,0.12);
+     position: sticky;
     top: 0;
     z-index: 10;
-
 }
-
-
 
 .logo {
-
-    font-size: 28px;
-    font-weight: bold;
-
+    font-size: 35px;
+    font-weight: bolder;
     color: #8b5bb7;
-
-    letter-spacing: 1px;
-
+    letter-spacing: 0.5px;
+    font-family: Playfair Display;
 }
 
-
-
 .nav-links {
-
     display: flex;
     list-style: none;
     gap: 30px;
-
 }
-
-
 
 .nav-links a {
-
     text-decoration: none;
     color: #4d4055;
-
     font-weight: 500;
-
     transition: 0.3s;
-
 }
-
-
 
 .nav-links a:hover {
-
     color: #b06ab3;
-
 }
 
-
-
-
-
-/* ===========================
-   BUTTON STYLE
-=========================== */
-
-
+/*BUTTON STYLE*/
 button {
-
-    background: linear-gradient(
+ background: linear-gradient(
         135deg,
         #a77bd4,
         #d89bcf
     );
-
     color: white;
-
     border: none;
-
     padding: 13px 30px;
-
     border-radius: 30px;
-
     font-size: 15px;
-
     cursor: pointer;
-
     transition: 0.3s;
-
 }
 
-
-
-button:hover {
-
+button:hover { 
     transform: translateY(-3px);
-
     box-shadow:
     0 8px 20px rgba(167,123,212,0.35);
-
 }
 
-/* ===========================
-   HOMEPAGE HERO BANNER
-=========================== */
-
-
+/*HOMEPAGE HERO BANNER */
 .hero-banner {
-
     position: relative;
-
     height: 85vh;
-
     overflow: hidden;
-
 }
-
-
 
 .banner-image {
-
     width:100%;
-
     height:100%;
-
     object-fit:cover;
-
 }
 
-
-
-
 .banner-overlay {
-
     position:absolute;
-
     top:0;
-
     left:0;
-
     width:100%;
-
     height:100%;
-
-
     background:
-
     linear-gradient(
         rgba(70,40,90,0.45),
         rgba(70,40,90,0.55)
     );
-
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
 }
-
-
-
-
 
 .banner-content {
-
     width:70%;
-
     color:white;
-
 }
-
-
 
 .banner-content h1 {
-
     font-size:60px;
-
     color:white;
-
     margin-bottom:20px;
-
     letter-spacing:1px;
-
 }
-
-
 
 .banner-content p {
-
     font-size:20px;
-
     max-width:700px;
-
-    margin:0 auto 30px;
-
+    margin:0 auto 30px auto;
     color:#fff;
-
 }
-
-
 
 .banner-content button {
 
@@ -285,22 +161,11 @@ button:hover {
 
 
 .banner-content button:hover {
-
-
     background:#ffffff;
-
     color:#8b5bb7;
-
-
 }
 
-
-
-/* ===========================
-   ABOUT PREVIEW
-=========================== */
-
-
+/* ABOUT PREVIEW */
 .about-preview {
 
     padding: 70px 8%;
@@ -309,27 +174,16 @@ button:hover {
 
 }
 
-
-
 .about-preview p {
-
-    max-width: 750px;
-
-    margin: auto;
-
+     max-width: 750px;
+     margin: auto;
 }
 
 
 
-/* ===========================
-   SERVICES SECTION
-=========================== */
-
-
+/* SERVICES SECTION */
 #services {
-
     padding: 70px 8%;
-
 }
 
 
@@ -399,60 +253,31 @@ button:hover {
 
 
 
-/* ===========================
-   GALLERY
-=========================== */
-
-
+/* GALLERY */
 #gallery {
-
     padding: 70px 8%;
-
-    background: #f8efff;
-
+    background: #cb9af0;
 }
-
-
 
 .gallery {
-
-    display: grid;
-
-    grid-template-columns: repeat(4,1fr);
-
-    gap: 20px;
-
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 20px;
 }
-
-
 
 .gallery img {
-
     height: 230px;
-
     width: 100%;
-
     object-fit: cover;
-
     border-radius: 20px;
-
     transition: 0.3s;
-
 }
-
-
 
 .gallery img:hover {
-
     transform: scale(1.05);
-
 }
 
-
-
-/* ===========================
-   ABOUT PAGE
-=========================== */
+/* ABOUT PAGE */
 
 
 .page-banner {
@@ -507,9 +332,7 @@ button:hover {
 
 
 .about-image {
-
     flex:1;
-
 }
 
 
@@ -526,20 +349,12 @@ button:hover {
 
 }
 
-
-
 .about-description {
-
     flex:1;
-
 }
 
-
-
 .about-description p {
-
     margin:20px 0;
-
 }
 
 
@@ -590,11 +405,7 @@ button:hover {
 
 
 
-/* ===========================
-   CONTACT PAGE
-=========================== */
-
-
+/* CONTACT PAGE */
 .contact-section {
 
     display:flex;
@@ -632,21 +443,13 @@ button:hover {
 
 
 .contact-details p {
-
     margin:20px 0;
-
 }
 
-
-
 form {
-
     display:flex;
-
     flex-direction:column;
-
     gap:15px;
-
 }
 
 
@@ -667,130 +470,64 @@ select {
 
 }
 
-
-
 input:focus,
 textarea:focus,
 select:focus {
-
     border-color:#a77bd4;
-
 }
-
-
 
 textarea {
-
     height:130px;
-
 }
 
-
-
-
-/* ===========================
-   CONTACT CTA
-=========================== */
-
-
+/* CONTACT CTA*/
 .contact-preview {
-
-    background:#f7eaff;
-
+    background: #efd9ff;
     text-align:center;
-
     padding:70px 8%;
-
 }
 
-
-
-
-
-/* ===========================
-   FOOTER
-=========================== */
-
-
+/*FOOTER*/
 footer {
-
     background:#7b4fa3;
-
     color:white;
-
     text-align:center;
-
     padding:25px;
-
 }
 
-
-
-
-
-/* ===========================
-   RESPONSIVE DESIGN
-=========================== */
+/* RESPONSIVE DESIGN */
 
 
 @media(max-width:900px){
-
-
     .navbar {
-
         flex-direction:column;
-
         gap:20px;
-
     }
-
-
+    
     .nav-links {
-
         flex-wrap:wrap;
-
         justify-content:center;
-
     }
-
-
-
+    
     .hero {
-
         flex-direction:column;
-
         text-align:center;
-
     }
-
-
+    
     .hero-content {
-
         width:100%;
-
     }
-
-
+    
     .hero h1 {
-
         font-size:40px;
-
     }
-
-
-
+    
     .service-container {
-
         grid-template-columns:repeat(2,1fr);
-
     }
-
-
-
+    
     .gallery {
-
         grid-template-columns:repeat(2,1fr);
-
     }
 
 
@@ -810,36 +547,19 @@ footer {
         width:100%;
 
     }
-
-
 }
 
-
-
-
 @media(max-width:600px){
-
-
     .service-container,
     .gallery {
-
         grid-template-columns:1fr;
-
     }
-
-
+    
     .hero-image img {
-
-        height:300px;
-
+         height:300px;
     }
-
 
     .page-banner h1 {
-
         font-size:35px;
-
     }
-
-
 }
