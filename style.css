@@ -84,3 +84,40 @@ button:hover{
     color:#666;
 }
 
+#services{
+    background:#faf7fd;
+}
+
+.about-preview{
+    background:white;
+}
+
+.contact-preview{
+    background:linear-gradient(to right,#f5ebff,#fdeff8);
+}
+
+.gallery img{
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.gallery img:hover{
+    transform:scale(1.06) rotate(1deg);
+}
+
+h2{
+    position:relative;
+    display:inline-block;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+h2::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#c98ed8;
+    margin:12px auto 0;
+    border-radius:10px;
+}
